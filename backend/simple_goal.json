@@ -1,0 +1,23 @@
+{
+    "main_goal": "Read a Book",
+    "missions": [
+        {
+            "id": "mission_1", 
+            "title": "Tome of Knowledge", 
+            "description": "Embark on a quest to conquer a literary realm!", 
+            "objective": "Complete reading an entire book from cover to cover", 
+            "frequency": {
+                            "type": "one_time", 
+                            "start_date": "2025-04-01", 
+                            "end_date": "2025-04-30", 
+                            "interval": "monthly", 
+                            "occurrences": 1
+                        }, 
+            "rewards": ["Wisdom +2", "Reader's Badge"], 
+            "difficulty": "easy", 
+            "xp": 50, 
+            "time_pressure": "no", 
+            "progress_tracking": {"current": 0, "total": 1}
+        }
+    ]
+}
