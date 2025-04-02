@@ -18,7 +18,7 @@ export default function Index() {
 
   return (
     <View className="flex flex-col flex-1 justify-start bg-neutral-950 w-screen min-h-screen h-max text-neutral-50">
-      <Input />
+      <Profile />
     </View>
   );
 }
